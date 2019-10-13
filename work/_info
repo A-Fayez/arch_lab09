@@ -1,0 +1,511 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Second Year\Second Term\Computer Architecture-Check!\Altera\modelsim_ase
+vadder
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 O2kP_;b>gPDF29THE=D2<3
+Z3 IOFBIT5iFA:Gnh5=5f<:8d1
+Z4 VR4:XbIkd<X908neF9?e9K1
+Z5 !s105 adder_sv_unit
+S1
+Z6 dC:\Users\Rana\Desktop\mips32-master\mips32-master
+Z7 w1570789517
+Z8 8C:/Users/Rana/Desktop/mips32-master/mips32-master/adder.sv
+Z9 FC:/Users/Rana/Desktop/mips32-master/mips32-master/adder.sv
+L0 1
+Z10 OV;L;10.1b;51
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/adder.sv|
+Z12 o-work work -sv -O0
+Z13 !s108 1570963656.675000
+Z14 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/adder.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+R1
+Z15 IKdLzINdne<RBnS2_m67zk2
+Z16 VW]NF]WQIjR:7B:nLji5Me3
+Z17 !s105 alu_sv_unit
+S1
+R6
+Z18 w1570963659
+Z19 8C:/Users/Rana/Desktop/mips32-master/mips32-master/alu.sv
+Z20 FC:/Users/Rana/Desktop/mips32-master/mips32-master/alu.sv
+L0 1
+R10
+r1
+31
+Z21 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/alu.sv|
+R12
+Z22 !s100 ?`4YWbQIbL@CZ[OKaMTlc3
+Z23 !s108 1570963660.175000
+Z24 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/alu.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+valudec
+R1
+Z25 !s100 S<YZXnCe3?gW^[c?@XUgW1
+Z26 ITQ<FeFbDkFhefnh1hZd;W2
+Z27 Vg`9OoRV_Yn=Jc;GZj>2L_1
+Z28 !s105 aludec_sv_unit
+S1
+R6
+Z29 w1570823643
+Z30 8C:/Users/Rana/Desktop/mips32-master/mips32-master/aludec.sv
+Z31 FC:/Users/Rana/Desktop/mips32-master/mips32-master/aludec.sv
+L0 1
+R10
+r1
+31
+Z32 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/aludec.sv|
+R12
+Z33 !s108 1570963660.550000
+Z34 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/aludec.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller
+R1
+Z35 !s100 TXH4jS`MaRUn5]J^OS`K13
+Z36 I`nWdgQJ4X2zB16I??b_Fn2
+Z37 V^DgP@Wm7[;`NzlzcZVKco3
+Z38 !s105 controller_sv_unit
+S1
+R6
+Z39 w1570789518
+Z40 8C:/Users/Rana/Desktop/mips32-master/mips32-master/controller.sv
+Z41 FC:/Users/Rana/Desktop/mips32-master/mips32-master/controller.sv
+L0 1
+R10
+r1
+31
+Z42 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/controller.sv|
+R12
+Z43 !s108 1570963660.800000
+Z44 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/controller.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+R1
+Z45 !s100 ZCI3?clACnXHIWAjeNa@j1
+Z46 I8Q4F@C<O`?F^dNJmB@zN_0
+Z47 V`N0VNo5fK:0f2[BN:BCH12
+Z48 !s105 datapath_sv_unit
+S1
+R6
+R39
+Z49 8C:/Users/Rana/Desktop/mips32-master/mips32-master/datapath.sv
+Z50 FC:/Users/Rana/Desktop/mips32-master/mips32-master/datapath.sv
+L0 1
+R10
+r1
+31
+Z51 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/datapath.sv|
+R12
+Z52 !s108 1570963661.051000
+Z53 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/datapath.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vdmem
+R1
+Z54 !s100 `:`O85XRN`h0?5l2oIFgd3
+Z55 I>MLDm=4:?3llL?MSS;1k?1
+Z56 V09OGzlPeaYS`EJSH7=l6?2
+Z57 !s105 dmem_sv_unit
+S1
+R6
+R39
+Z58 8C:/Users/Rana/Desktop/mips32-master/mips32-master/dmem.sv
+Z59 FC:/Users/Rana/Desktop/mips32-master/mips32-master/dmem.sv
+L0 1
+R10
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/dmem.sv|
+R12
+Z61 !s108 1570963661.254000
+Z62 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/dmem.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vextnext
+R1
+Z63 !s100 Ua=4F9CFkg[d1mC0U5gML0
+Z64 I>KTIi;OT7gC81QlDKSlJo1
+Z65 VKN`0^M`Xm]81oSnDzIWfo1
+Z66 !s105 extnext_sv_unit
+S1
+R6
+R39
+Z67 8C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext.sv
+Z68 FC:/Users/Rana/Desktop/mips32-master/mips32-master/extnext.sv
+L0 1
+R10
+r1
+31
+Z69 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext.sv|
+R12
+Z70 !s108 1570963661.472000
+Z71 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vextnext_temp
+R1
+Z72 !s100 oS1@h27k5an8>zZSCT6F61
+Z73 IimLlaZDb[SMMH=UIbZ@]S0
+Z74 V;7;=TNc9`:OJhZCS1Yh033
+Z75 !s105 extnext_temp_sv_unit
+S1
+R6
+R39
+Z76 8C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext_temp.sv
+Z77 FC:/Users/Rana/Desktop/mips32-master/mips32-master/extnext_temp.sv
+L0 1
+R10
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext_temp.sv|
+R12
+Z79 !s108 1570963661.832000
+Z80 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext_temp.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vflopr
+R1
+Z81 !s100 k[oG_jKWIWJf<S`8?F@B52
+Z82 I4zLPA0FM6K>MMU?a1f^aH2
+Z83 VKfe>keNPnLBlHh<KCg1o52
+Z84 !s105 flopr2023_sv_unit
+S1
+R6
+R39
+Z85 8C:/Users/Rana/Desktop/mips32-master/mips32-master/flopr #.sv
+Z86 FC:/Users/Rana/Desktop/mips32-master/mips32-master/flopr #.sv
+L0 1
+R10
+r1
+31
+Z87 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/flopr #.sv|
+R12
+Z88 !s108 1570963662.066000
+Z89 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/flopr #.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vimem
+R1
+Z90 !s100 JjjbRk6E:KneH=WU5P>zj1
+Z91 I?8i5Jc7>;OA6^zAzRS_C[3
+Z92 V_eezcn[fFK3m2C;IUCfT<1
+Z93 !s105 imem_sv_unit
+S1
+R6
+R39
+Z94 8C:/Users/Rana/Desktop/mips32-master/mips32-master/imem.sv
+Z95 FC:/Users/Rana/Desktop/mips32-master/mips32-master/imem.sv
+L0 1
+R10
+r1
+31
+Z96 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/imem.sv|
+R12
+Z97 !s108 1570963662.285000
+Z98 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/imem.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmaindec
+R1
+Z99 IJ287]RE`iKmNmOO>Z_f6d0
+Z100 VJ]7S^iR2;=;HI`G=KUQUQ0
+Z101 !s105 maindec_sv_unit
+S1
+R6
+Z102 w1570963565
+Z103 8C:/Users/Rana/Desktop/mips32-master/mips32-master/maindec.sv
+Z104 FC:/Users/Rana/Desktop/mips32-master/mips32-master/maindec.sv
+L0 1
+R10
+r1
+31
+Z105 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/maindec.sv|
+R12
+Z106 !s100 FCdJ7kRL4^C]E^WEG`dmO1
+Z107 !s108 1570963662.504000
+Z108 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/maindec.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmips
+R1
+Z109 !s100 _;RdcY@>jJRV88bHJWi;m2
+Z110 I<j6jf7hoFIoZ1<A]fZPQ62
+Z111 Va2;eVEc7`hU<K]<IICd^52
+Z112 !s105 mips_sv_unit
+S1
+R6
+R39
+Z113 8C:/Users/Rana/Desktop/mips32-master/mips32-master/mips.sv
+Z114 FC:/Users/Rana/Desktop/mips32-master/mips32-master/mips.sv
+L0 1
+R10
+r1
+31
+Z115 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/mips.sv|
+R12
+Z116 !s108 1570963662.832000
+Z117 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/mips.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2
+R1
+Z118 !s100 L<`oiBV3?CzDKWoCOf?]C3
+Z119 Iigoj?@CF=gQOZ>l>XEE;b1
+Z120 VT8RWJBjAIeM]>7U=5kBkT1
+Z121 !s105 mux22023_sv_unit
+S1
+R6
+R39
+Z122 8C:/Users/Rana/Desktop/mips32-master/mips32-master/mux2 #.sv
+Z123 FC:/Users/Rana/Desktop/mips32-master/mips32-master/mux2 #.sv
+L0 1
+R10
+r1
+31
+Z124 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/mux2 #.sv|
+R12
+Z125 !s108 1570963663.223000
+Z126 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/mux2 #.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4
+R1
+Z127 !s100 PL8;5_WOMkmaoSO<A7i`72
+Z128 IQKjn21gIzRg>;lYA`cZTn3
+Z129 VOlcBmM_04`P224OO8SWB<0
+Z130 !s105 mux42023_sv_unit
+S1
+R6
+R39
+Z131 8C:/Users/Rana/Desktop/mips32-master/mips32-master/mux4 #.sv
+Z132 FC:/Users/Rana/Desktop/mips32-master/mips32-master/mux4 #.sv
+L0 1
+R10
+r1
+31
+Z133 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/mux4 #.sv|
+R12
+Z134 !s108 1570963663.519000
+Z135 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/mux4 #.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+R1
+Z136 !s100 DC7dhJKX=HCKDH2@?FND_0
+Z137 I]VlF0mf8`4cY>LA1PX^=j0
+Z138 Vl>JD@?ekG29h[?;gM3Z2H1
+Z139 !s105 regfile_sv_unit
+S1
+R6
+R39
+Z140 8C:/Users/Rana/Desktop/mips32-master/mips32-master/regfile.sv
+Z141 FC:/Users/Rana/Desktop/mips32-master/mips32-master/regfile.sv
+L0 1
+R10
+r1
+31
+Z142 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/regfile.sv|
+R12
+Z143 !s108 1570963663.832000
+Z144 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/regfile.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vsignex
+R1
+Z145 !s100 4FagaBgT65lXJencB<_ko3
+Z146 I592FP<[Ae@:S_eTPHmB]V2
+Z147 V[ka^c_4ck_azZ:_6AGij<2
+Z148 !s105 signex_sv_unit
+S1
+R6
+R39
+Z149 8C:/Users/Rana/Desktop/mips32-master/mips32-master/signex.sv
+Z150 FC:/Users/Rana/Desktop/mips32-master/mips32-master/signex.sv
+L0 2
+R10
+r1
+31
+Z151 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/signex.sv|
+R12
+Z152 !s108 1570963664.113000
+Z153 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/signex.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vsignext
+R1
+Z154 !s100 eLS6ijZRRjB?fcM`m`X1[1
+Z155 I7;UMLdgFYZ2;OEN1<iPiS3
+Z156 VzXjEl4X;;[WhS@=1HjFT41
+Z157 !s105 signext_sv_unit
+S1
+R6
+R39
+Z158 8C:/Users/Rana/Desktop/mips32-master/mips32-master/signext.sv
+Z159 FC:/Users/Rana/Desktop/mips32-master/mips32-master/signext.sv
+L0 1
+R10
+r1
+31
+Z160 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/signext.sv|
+R12
+Z161 !s108 1570963664.660000
+Z162 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/signext.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vsl2
+R1
+Z163 !s100 43MZBofYXnUGO]:5`5TEG1
+Z164 IaX;1<gLEnNNmjnW2e_J]k3
+Z165 VMHGRbO<8oJM:TjGW_j2PX2
+Z166 !s105 sl2_sv_unit
+S1
+R6
+R39
+Z167 8C:/Users/Rana/Desktop/mips32-master/mips32-master/sl2.sv
+Z168 FC:/Users/Rana/Desktop/mips32-master/mips32-master/sl2.sv
+L0 1
+R10
+r1
+31
+Z169 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/sl2.sv|
+R12
+Z170 !s108 1570963665.144000
+Z171 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/sl2.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench
+R1
+Z172 !s100 zfGziheN?zVn3jdfR>15N2
+Z173 IDGI39=M`VRCAIQEY=N?EA0
+Z174 VhGfW:390DM[oDMzegDH9`2
+Z175 !s105 testbench_sv_unit
+S1
+R6
+R39
+Z176 8C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench.sv
+Z177 FC:/Users/Rana/Desktop/mips32-master/mips32-master/testbench.sv
+L0 1
+R10
+r1
+31
+Z178 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench.sv|
+R12
+Z179 !s108 1570963665.379000
+Z180 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench__andi
+R1
+Z181 !s100 jo2_oSG[S684_iddV=cdO2
+Z182 I<dd?3CW1`4?SCH@EfBI:;0
+Z183 VJMFI]?PU_PI3A44];i8Hc2
+Z184 !s105 testbench__andi_sv_unit
+S1
+R6
+R39
+Z185 8C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__andi.sv
+Z186 FC:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__andi.sv
+L0 1
+R10
+r1
+31
+Z187 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__andi.sv|
+R12
+Z188 !s108 1570963665.597000
+Z189 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__andi.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench__lhlb
+R1
+Z190 !s100 XIMf2dASnm>1^Pn7k<iRf1
+Z191 I5lOZ[j1WhPcj45GC^^2PT0
+Z192 VVGGfD=6=I9@_InA[eIHPR3
+Z193 !s105 testbench__lhlb_sv_unit
+S1
+R6
+R39
+Z194 8C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__lhlb.sv
+Z195 FC:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__lhlb.sv
+L0 1
+R10
+r1
+31
+Z196 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__lhlb.sv|
+R12
+!i10b 1
+!s85 0
+Z197 !s108 1570963666.098000
+Z198 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__lhlb.sv|
+!s101 -O0
+vtestbench_lbu
+R1
+Z199 !s100 JKaQVNLoKmeeM7I^04ESf2
+Z200 I`Y[m@Xb_;jCUoHW0Z?Z=@1
+Z201 VCTk]XNNdF=fLXSdHhWc:M0
+Z202 !s105 testbench__jr_sv_unit
+S1
+R6
+R39
+Z203 8C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__jr.sv
+Z204 FC:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__jr.sv
+L0 1
+R10
+r1
+31
+Z205 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__jr.sv|
+R12
+Z206 !s108 1570963665.847000
+Z207 !s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__jr.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtop
+R1
+!i10b 1
+Z208 !s100 `S^6PI2<[SBHg_1Z7B_MU2
+Z209 I:>Y8ZCGQJcY64TIP]A>VR2
+Z210 V=TIn67B?1ag:LQ8NchNYN0
+Z211 !s105 top_sv_unit
+S1
+R6
+R39
+Z212 8C:/Users/Rana/Desktop/mips32-master/mips32-master/top.sv
+Z213 FC:/Users/Rana/Desktop/mips32-master/mips32-master/top.sv
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1570963666.379000
+!s107 C:/Users/Rana/Desktop/mips32-master/mips32-master/top.sv|
+Z214 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Rana/Desktop/mips32-master/mips32-master/top.sv|
+!s101 -O0
+R12

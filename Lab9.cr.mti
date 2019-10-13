@@ -1,0 +1,155 @@
+C:/Users/Rana/Desktop/mips32-master/mips32-master/regfile.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/regfile.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {C:/Users/Rana/Desktop/mips32-master/mips32-master/flopr #.sv} {1 {vlog -work work -sv {C:/Users/Rana/Desktop/mips32-master/mips32-master/flopr #.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} {C:/Users/Rana/Desktop/mips32-master/mips32-master/mux2 #.sv} {1 {vlog -work work -sv {C:/Users/Rana/Desktop/mips32-master/mips32-master/mux2 #.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/datapath.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/datapath.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/adder.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/adder.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/sl2.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/sl2.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module sl2
+
+Top level modules:
+	sl2
+
+} {} {}} {C:/Users/Rana/Desktop/mips32-master/mips32-master/mux4 #.sv} {1 {vlog -work work -sv {C:/Users/Rana/Desktop/mips32-master/mips32-master/mux4 #.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__jr.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__jr.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench_lbu
+
+Top level modules:
+	testbench_lbu
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/signext.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/signext.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/dmem.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/dmem.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/controller.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/controller.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext_temp.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext_temp.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module extnext_temp
+
+Top level modules:
+	extnext_temp
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/signex.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/signex.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module signex
+
+Top level modules:
+	signex
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/aludec.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/aludec.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__lhlb.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__lhlb.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench__lhlb
+
+Top level modules:
+	testbench__lhlb
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/extnext.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module extnext
+
+Top level modules:
+	extnext
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/imem.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/imem.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/mips.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/mips.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/alu.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/alu.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__andi.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/testbench__andi.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench__andi
+
+Top level modules:
+	testbench__andi
+
+} {} {}} C:/Users/Rana/Desktop/mips32-master/mips32-master/top.sv {1 {vlog -work work -sv C:/Users/Rana/Desktop/mips32-master/mips32-master/top.sv
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}
