@@ -1,6 +1,6 @@
 module top(input logic clk, reset,
             output logic [31:0] writedata, dataadr,
-            output logic [1:0]memwrite);
+            output logic memwrite);
 
 logic [31:0] pc, instr, readdata;
 

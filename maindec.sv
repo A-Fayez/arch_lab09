@@ -1,16 +1,16 @@
 module maindec(input logic [5:0] op,funct,
-    output logic memtoreg, [1:0]memwrite,
+    output logic memtoreg, memwrite,
     output logic branch, 
     output logic [1:0] alusrc,
     output logic regdst, regwrite,
     output logic jump,jr,
     output logic ne,
-    output logic half,
+    output logic [1:0]half,
     output logic b,
-    output logic [3:0] aluop,
+    output logic [2:0] aluop,
     output logic lbu, link);
 
-logic [18:0] controls;
+logic [17:0] controls;
 
 assign {regwrite, regdst, alusrc, branch, memwrite,
         memtoreg, jump,jr, aluop, ne, half, b, lbu, link} = controls;
@@ -18,32 +18,31 @@ assign {regwrite, regdst, alusrc, branch, memwrite,
 
 always_comb
 if((op == 0) && (funct==6'b001000)) begin
-       controls <= 19'b0100000001000000000; // jr
+       controls <= 18'b01000000100000000; // jr
      end
 else
 begin
     case(op)
-        6'b000000: controls <= 19'b1100000000111100000; // RTYPE
-        6'b100011: controls <= 19'b1001000100000000000; // LW
-        6'b101011: controls <= 19'b0001001000000000000; // SW
-        6'b000100: controls <= 19'b0000100000000100000; // BEQ
-        6'b001000: controls <= 19'b1001000000000000000; // ADDI
-        6'b001101: controls <= 19'b1011000000001100000; // ORI
-        6'b000010: controls <= 19'b0000000010000000000; // J        
-        6'b000101: controls <= 19'b0000100000000110000;  // BNQ
-        6'b100001: controls <= 19'b1001000100000001000; // LH
-        6'b100000: controls <= 19'b1001000100000001100; // LB
-        6'b100100: controls <= 19'b1001000000000000010; // lbu
-        6'b001100: controls <= 19'b1011000000011100000; //andi
-        6'b000011: controls <= 19'b1000000010000000001; //jal
-        6'b001111: controls <= 19'b1001000000010000000; // LUI
-        6'b001110: controls <= 19'b1001000000010100000; // XORI
-        6'b000110: controls <= 19'b0000100000001000000; // Blez	     	
-        6'b001010: controls <= 19'b1001000000011000000; //slti
-        6'b101001: controls <= 19'b0001010000000000000; // sh
-        6'b101000: controls <= 19'b0001011000000000000; // sb
+        6'b000000: controls <= 18'b110000000010000000; // RTYPE
+        6'b100011: controls <= 18'b100100100000000000; // LW
+        6'b101011: controls <= 18'b000101000000000000; // SW
+        6'b000100: controls <= 18'b000010000001000000; // BEQ
+        6'b001000: controls <= 18'b100100000000000000; // ADDI
+        6'b001101: controls <= 18'b101100000011000000; // ORI
+        6'b000010: controls <= 18'b000000010000000000; // J        
+        6'b000101: controls <= 18'b000010000001100000;  // BNQ
+        6'b100001: controls <= 18'b100100100000001000; // LH
+        6'b100000: controls <= 18'b100100100000001100; // LB
+        6'b100100: controls <= 18'b100100000000000010; // lbu
+        6'b001100: controls <= 18'b101100000100000000; //andi
+        6'b000011: controls <= 18'b100000010000000001; //jal
+        6'b001111: controls <= 18'b100100000100000000; // LUI
+        6'b001110: controls <= 18'b100100000101000000; // XORI
+        6'b000110: controls <= 18'b000010000010000000; // Blez	     	
+        6'b001010: controls <= 18'b100100000110000000; //slti
+        6'b100101: controls <= 18'b100100100000010000; // LHu
 
-        default:   controls <= 19'bxxxxxxxxxxxxxxxxxxx; // illegal op
+        default:   controls <= 17'bxxxxxxxxxxxxxxxxx; // illegal op
 
     endcase
     end

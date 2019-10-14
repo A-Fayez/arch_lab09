@@ -23,16 +23,14 @@ always_comb
         4'b1000: y = (b<<16); //lui
         4'b1001: y = a^b ; //xor  
         4'b1010: begin     //blez
-                if((a[31]==1)|(a==0))
+                if(a<=0)
                         y=0 ;
                 else
                         y=1;
                 end
-                      
-        4'b1011: y = ( b >> (a[4:0]) ); //srlv
+	              	  
+        4'b1011: y = ( a >> (b[4:0]) ); //srlv
         4'b1100: y=(b>>shamt);
-        4'b1101: y=(b>>>shamt);
-        4'b1110: y = ( b << (a[4:0]) ); //sllv
         default: y=0;
         endcase
 

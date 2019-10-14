@@ -1,14 +1,14 @@
 module mips(input logic clk, reset,
             output logic [31:0] pc,
             input logic [31:0] instr,
-            output logic [1:0]memwrite,
+            output logic memwrite,
             output logic [31:0] aluout, writedata,
             input logic [31:0] readdata);
 
 logic memtoreg, ne, regdst,
-    regwrite, jump,jr, pcsrc, zero, half, b, link;
+    regwrite, jump,jr, pcsrc, zero, b, link;
 
-logic [1:0] alusrc;
+logic [1:0] alusrc, half;
 
 logic [3:0] alucontrol;
 
