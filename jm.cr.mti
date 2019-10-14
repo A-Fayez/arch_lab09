@@ -1,0 +1,176 @@
+{C:/Users/m7md 3zt/Desktop/New folder (4)/regfile.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/regfile.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/flopr #.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/flopr #.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/mux2 #.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/mux2 #.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/datapath.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/datapath.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/adder.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/adder.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/maindec.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/maindec.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__sh.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__sh.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/sl2.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/sl2.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module sl2
+
+Top level modules:
+	sl2
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/mux4 #.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/mux4 #.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__jr.sv} {1 {vlog -work work -sv {C:\Users\m7md 3zt\Desktop\New folder (4)\testbench__jr.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench_lbu
+
+Top level modules:
+	testbench_lbu
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/signext.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/signext.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/dmem.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/dmem.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/controller.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/controller.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/extnext_temp.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/extnext_temp.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module extnext_temp
+
+Top level modules:
+	extnext_temp
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/aludec.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/aludec.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/signex.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/signex.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module signex
+
+Top level modules:
+	signex
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/imem.sv} {1 {vlog -work work -sv {C:\Users\m7md 3zt\Desktop\New folder (4)\imem.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/extnext.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/extnext.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module extnext
+
+Top level modules:
+	extnext
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__lhlb.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__lhlb.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench__lhlb
+
+Top level modules:
+	testbench__lhlb
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/mips.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/mips.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/alu.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/alu.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__andi.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__andi.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench__andi
+
+Top level modules:
+	testbench__andi
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__sb.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/testbench__sb.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/m7md 3zt/Desktop/New folder (4)/top.sv} {1 {vlog -work work -sv {C:/Users/m7md 3zt/Desktop/New folder (4)/top.sv}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}
