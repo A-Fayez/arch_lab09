@@ -3,7 +3,9 @@ module datapath(input logic clk, reset,
                 input logic [1:0] alusrc,
                 input logic ne,
                 input logic regdst, lbu, link,
-                input logic regwrite, jump,jr, half,b,
+                input logic regwrite, jump,jr,
+                input logic[1:0] half,
+                input logic b,
                 input logic [3:0] alucontrol,
                 output logic zero,
                 output logic [31:0] pc,
@@ -20,7 +22,7 @@ module datapath(input logic clk, reset,
     logic [31:0] result_T; 
     logic [31:0] bfresult ;
     logic [4:0] outwrite;
-    logic [31:0] half_result_extended;
+    logic [31:0] half_result_extended,half_result_extended0;
     logic [31:0] hw_dataMemeoryOutput; // datamemory after the half word design
     logic [31:0] one_byte_result_sign_extended;
 
@@ -36,8 +38,10 @@ module datapath(input logic clk, reset,
 
     //half
         signext se2(result_T[15:0], half_result_extended); //extend sign
+        extnext ext0(result_T[15:0],half_result_extended0);//extend zeros
     //mux after the halfword
-    mux2 #(32) halfmux(result_T,half_result_extended,half,hw_dataMemeoryOutput);
+   // mux2 #(32) halfmux(result_T,half_result_extended,half,hw_dataMemeoryOutput);
+    mux3 #(32) halfmux(result_T,half_result_extended,half_result_extended0,half,hw_dataMemeoryOutput);
     // one byte
     signex #(24,8) se3(result_T[7:0], one_byte_result_sign_extended);
     //mux after the one byte word

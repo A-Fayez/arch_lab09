@@ -1,17 +1,17 @@
 module controller(input logic [5:0] op, funct,
                     input logic zero,
-                    output logic memtoreg, [1:0] memwrite,
+                    output logic memtoreg, memwrite,
                     output logic pcsrc, 
                     output logic [1:0] alusrc,
                     output logic regdst, regwrite,
                     output logic jump,jr,
                     output logic ne,
-                    output logic half,
+                    output logic [1:0]half,
                     output logic b,
                     output logic [3:0] alucontrol,
                     output logic lbu, link);
 
-logic [3:0] aluop;
+logic [2:0] aluop;
 logic branch;
 
 maindec md(op,funct, memtoreg, memwrite, branch,
